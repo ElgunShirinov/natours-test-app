@@ -2,7 +2,7 @@
 import Stripe from 'stripe';
 import axios from 'axios';
 import { showAlert } from './alerts';
-const stripe = Stripe('pk_test_51QFyXuRo7rwgT9eQTRvkBfidilLUJOtPx8xrC5rrTMcdHh34EnBQ4IDqe3qHtkItQ3p8r9MJtMcHYulH9V8w0XGP00nNRhwwJ6');
+const stripe = Stripe('pk_test_51QFyXuRo7rwgT9eQTRvkBfidilLUJOtPx8xrC5rr');
 
 export const bookTour = async tourId => {
   try {
